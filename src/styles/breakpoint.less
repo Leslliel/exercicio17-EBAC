@@ -1,0 +1,22 @@
+@import "scapings.less";
+
+@media @breakpointTablet {
+    .container {
+        max-width: 80%;
+    }
+
+    .produtos {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+
+@media @breakpointMobile {
+    .produtos {
+        display: block;
+
+        .produtos-item {
+            margin-bottom: 32px;
+        }
+    }
+}
